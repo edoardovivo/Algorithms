@@ -54,8 +54,9 @@ def main():
 	A = np.array([13, -3, -25, 20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7])
 	A1 = np.array([-2, -7, -1, -10, -12, -4, -5])
 	A2 = -A1
+	A3 = np.array([-2, -3, 4,-1,-2,1,5,-3])
 	print A1
-	msubval = find_max_subarray(A)
+	msubval = find_max_subarray(A1)
 	print msubval
 	
 
